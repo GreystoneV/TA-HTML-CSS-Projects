@@ -1,0 +1,138 @@
+/* Set head markin and font*/
+head {
+	margin: 0;
+	background-color: #385170;
+}
+
+/* Set body margin and font */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+
+}
+
+#Navigation {
+	background-color: #ececec;
+	display: flex;
+	justify-content: center;
+}
+
+#Navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex; /* Add flexbox display to the parent ul element */
+}
+
+#Navigation li {
+	display: inline-block; /* Display li elements horizontally */
+	margin-right: 10px; /* Add some spacing between the li elements */
+}
+
+#Navigation a {
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	background-color: #333;
+	text-decoration: none;
+}
+
+#Navigation a:hover {
+	background-color: #385170;
+}
+
+/* Style the header */
+#home {
+	background-position: center;
+	background-size: cover;
+	background-color: #ececec;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #385170;
+	text-align: center;
+}
+
+#home h1 {
+	font-size: 4rem;
+	margin: 0;
+}
+
+#home p {
+	font-size: 1.5rem;
+	max-width: 800px;
+	margin: 2rem 0;
+}
+
+/* Style the photo gallery */
+section {
+	background-color: #9fd3c7;
+	padding: 2rem;
+}
+
+#gallery h1 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#gallery div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#gallery div > div {
+	margin: 1rem;
+	width: 250px;
+}
+
+#gallery img {
+	width: 100%;
+}
+
+#gallery h3 {
+	font-size: 1rem;
+	margin: 0;
+	text-align: center;
+}
+
+#gallery p {
+	font-size: 0.8rem;
+	margin: 0;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+#videos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #385170;
+}
+#contact {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contact h1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+}
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #385170;
+}
+
+
