@@ -12,7 +12,7 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
-    color: #333;
+    color: #424549;
     background-color: #385170;
 }
 
@@ -156,13 +156,13 @@ section {
     height: auto;
     padding-top: 350px;
     padding-bottom: 500px;
-    color: #fff;
+    color: #424549;
 }
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #ececec;
+    color: #9ba6a5;
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
@@ -170,7 +170,7 @@ section {
     font-family: Impact, sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #ececec;
+    border: 5px double #9ba6a5;
     padding: 10px;
 }
 
