@@ -2,8 +2,8 @@
 This is the repository for my Tech Academy HTML and CSS projects
 
 ## Projects
-1.[Greystone Farms](https://github.com/GreystoneV/TA-HTML-CSS-Projects/tree/master/Project)
-2.[Cinema](https://github.com/GreystoneV/TA-HTML-CSS-Projects/tree/master/bootstrap4_project)
+1. Greystone Farms](https://github.com/GreystoneV/TA-HTML-CSS-Projects/tree/master/Project)
+2. [Cinema](https://github.com/GreystoneV/TA-HTML-CSS-Projects/tree/master/bootstrap4_project)
 
 ### Greystone Farms Site
 This needs a bit of adjustment. There was an error(user!) while working on it or commiting that led to issues.
