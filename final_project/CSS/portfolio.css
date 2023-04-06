@@ -229,9 +229,11 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background: ##455d7a;
+    background: rgba(0, 0, 0, 0.3);
+
     /* This provides a semi-transparent background for the text to sit over */
-    color: #e7eaf6;
+    color: rgba(0, 0, 0, 0.5);
+    ;
     /* Makes the font color white */
     width: 100%;
     /* Ensures the video-text container fills the width of the video */
