@@ -1,3 +1,4 @@
+/* Old css */
 /*Menu Section Animations*/
 #Navigation {
     /* color: #f00; */
@@ -37,81 +38,163 @@ body {
     background-color: #436ea3;
 }
 
+/* Home */
+
 #home {
+    color: #142d4c;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Gallery Section Animations*/
+/* container on homepage */
 
-#gallery {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    line-height: 0;
-    margin-bottom: 2em;
-    overflow: hidden;
+.container {
+    display: block;
+    margin: 50px 450px 50px 500px;
+    padding-top: 10px;
+    padding-left: 140px;
+    border: 3px solid #142d4c;
     border-radius: 8px;
-    padding: 1px;
-    border: 1px solid #021a40;
-    background-color: #757a79;
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
-}
-
-.photo-container {
-    margin: 15px auto;
-    width: 300px;
-    height: 169px;
+    background-color: #707174;
 
 }
 
-.photo-container img {
-    max-width: 100%;
-    width: 300px;
-    height: 169px;
-    border-radius: 8px;
+/* Lightbox css */
+.row>.column {
+    padding: 0 8px;
 }
 
-.photo-overlay {
-    max-width: 100%;
-    width: 300px;
-    height: 169px;
-    color: #9d9fa2;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+    align-content: center;
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    background-color: black;
 }
 
-.white-head {
-    color: #c9bdaa;
-    margin-top: 5%;
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
 }
 
-/*Photo Overlay Transitions*/
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
 
-.photo-overlay {
-    opacity: 0;
-    transition: opacity .5s;
-    border-radius: 10px;
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
     cursor: pointer;
 }
 
-.photo-overlay:hover {
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
     opacity: 1;
 }
 
-.photo img {
-    transition: transform .5s;
-    transform-origin: 50% 50%;
+img.hover-shadow {
+    transition: 0.3s;
 }
 
-.photo:hover img {
-    transform: scale(1.1);
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rsvp-container {
+    display: block;
+    margin: 50px 450px 50px 500px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    border: 3px solid #142d4c;
+    border-radius: 8px;
+    background-color: #707174;
+
 }
